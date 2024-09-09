@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation example</title>
+    <style>
+        .box {
+            animation: Slide 2 2s ease;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: palevioletred;
+            margin-left: 5px;
+        }
+
+        .boxes {
+            display: flex;
+            align-items: center;
+        }
+
+        @keyframes Slide {
+            0% {
+                transform: translateX(0);
+            }
+
+            25% {
+                transform: translateX(25px);
+
+            }
+
+            50% {
+                transform: translateX(50px);
+            }
+
+            75% {
+                transform: translateX(25px);
+
+            }
+
+            100% {
+                transform: translateX(0);
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Animation example</h1>
+    <div class="boxes">
+        <div class="box">
+
+        </div>
+        <div class="box">
+
+        </div>
+    </div>
+
+</body>
+
+</html>

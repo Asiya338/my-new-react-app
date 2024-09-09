@@ -1,0 +1,121 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.img {
+  border-radius: 50%;
+}
+
+.headerclass,
+.footerclass,
+.mainclass {
+  color: rgb(151, 136, 236);
+  background-color: rgb(3, 3, 51);
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  font-size: 46px;
+
+}
+
+/*props concept*/
+
+.card {
+  box-sizing: border-box;
+  padding: 10px 10px 10px 10px;
+}
+
+.contact {
+  background-color: palevioletred;
+  color: purple;
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+}
+
+.contact img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30%;
+  height: 200px;
+  padding: 10px 10px 10px 10px;
+}
+
+/*css for todo app*/
+.todoitem {
+  font-size: 20px;
+  color: palevioletred;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.todoitem .inputodo {
+  accent-color: palevioletred;
+
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+input [ type="checkbox"] {
+  color: palevioletred;
+}
+
+p {
+  margin: 0px;
+}
+
+.todolist {
+  padding: 10px 10px 10px 10px;
+
+  color: #909090;
+  box-sizing: content-box;
+  width: 25%;
+  border: 1px solid #909090;
+  box-shadow: 10px 10px 5px palevioletred;
+}
+
+/*inset => shadow inside*/
+hr {
+  border: none;
+  border-top: 2px solid rgb(91, 56, 158);
+  margin-top: 8px;
+  width: 100%;
+}

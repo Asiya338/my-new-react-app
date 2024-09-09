@@ -1,0 +1,19 @@
+npx => node package execute
+npm => node package manager
+componenets can be func and class componenets
+but func componenets used
+must have only one parent tag -> <></> or <React.Fragment>
+React component names must always start with a capital lette
+hooks start with use keyword  => useState
+useState is hook builtin
+React elements has to be wraped in {}
+so in styling {{}} is used to wrap
+commnets in React/*{
+    content
+}*/
+
+class componenets are ES6 class that extends React.component
+override render() 
+in constructor => super() to refer parent class
+this.props.sum access
+
